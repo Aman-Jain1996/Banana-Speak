@@ -3,9 +3,9 @@ var btnTranslate = document.querySelector("#btn-translate");
 var outputArea = document.querySelector("#output-area");
 var btnReset =document.querySelector("#btn-reset");
 
-//var url = "https://First-API-Call.amanjain1996.repl.co/translate/yoda.json" ;
+var url = "https://First-API-Call.amanjain1996.repl.co/translate/yoda.json" ;
 
-var url ="https://api.funtranslations.com/translate/minion.json";
+//var url ="https://api.funtranslations.com/translate/minion.json";
 
 function URLGenerator(text){
     return url+"?text="+text;
