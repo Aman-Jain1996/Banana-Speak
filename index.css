@@ -1,11 +1,10 @@
 *{
     --color: #FDE68A;
-}
-
-body{
+    box-sizing: border-box;
     font-family: Kalam;
     margin:0px;
 }
+
 
 nav{
     text-align: center;
@@ -13,7 +12,6 @@ nav{
     font-size: 2rem;
     font-weight: bold;
     background-color: var(--color);
-    height:auto;
 }
 
 main{
@@ -21,8 +19,7 @@ main{
     max-width:600px;
     padding: 2rem;
     text-align: center;
-    box-sizing: border-box;
-    height:auto;    
+    overflow :auto;    
 }
 
 #input-area{
@@ -76,11 +73,11 @@ span{
 
 footer{
     margin-top: 2rem;
-    display:block;
-    height: 25vh;
     width: 100%;
     position: relative;
     background-color: var(--color);
+    overflow: auto;
+    bottom:0;
 }
 
 footer h1{
@@ -92,9 +89,8 @@ footer h1{
 }
 
 footer p{
-    padding-top:1rem;
+    padding: 1rem 0rem;
     text-align: center;
     max-width: 500px;
     margin:auto;
-    box-sizing: border-box;
 }

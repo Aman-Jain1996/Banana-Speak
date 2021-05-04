@@ -26,8 +26,8 @@ function APICall(){
 
 
 
-btnTranslate.addEventListener('click',APICall);
-btnReset.addEventListener('click',resetHandler);
+btnTranslate.addEventListener("click", APICall);
+btnReset.addEventListener("click", resetHandler);
 
 
 function resetHandler(){
