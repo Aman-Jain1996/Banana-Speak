@@ -14,8 +14,7 @@ function URLGenerator(text){
 
 
 function APICall(){
-    var URL=URLGenerator(inputText.value);
-    fetch(URL)
+    fetch(URLGenerator(inputText.value))
     .then(response => response.json())
     .then(response =>{
         outputArea.value=response.contents.translated;
