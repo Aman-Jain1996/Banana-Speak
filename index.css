@@ -7,6 +7,89 @@
 
 
 nav{
+    background-color: var(--color);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0rem;
+}
+
+main{
+    max-width:600px;
+    margin: auto;
+    padding:1rem ;
+    
+}
+
+main textarea{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    min-width: 400px;
+    min-height: 100px;
+}
+
+.btn-holder{
+    padding: 1rem 6rem;
+    margin: auto;
+}
+
+main button{
+    font-family: inherit;
+    background-color: palegoldenrod;
+    font-size: 1rem;
+    font-weight:600;
+    display: inline-block;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+
+button:hover{
+    border: 1px solid #888;
+  background-color: #ddd;
+
+}
+
+#btn-reset{
+    font-weight: 450;
+}
+
+span{
+    display: block;
+    margin: auto;
+    padding: 0rem 5.1rem 1rem ;
+}
+
+
+footer{
+    bottom: 0;
+    position: fixed;
+    background-color: var(--color);
+    display: inline-block;
+    width: 100%;
+
+}
+
+footer > h1{
+    text-align: center;
+    overflow: hidden;
+    padding:0.5rem 0rem ;
+    margin: auto;
+}
+
+footer > p{
+    text-align: center;
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 0.5rem;
+}
+
+
+/*
+nav{
     text-align: center;
     padding: 1rem;
     font-size: 2rem;
@@ -40,23 +123,7 @@ main{
     margin:1rem;
 }
 
-#btn-translate{
-    font-family: inherit;
-    margin: 1rem 0rem;
-    background-color: palegoldenrod;
-    padding: 0.2rem 1rem;
-    font-size: 1rem;
-    font-weight:600;
-}
 
-#btn-reset{
-    font-family: inherit;
-    margin: 1rem 1rem;
-    background-color: palegoldenrod;
-    padding: 0.2rem 1rem;
-    font-size: 1rem;
-    font-weight:450;
-}
 
 #output-area{
     display: block;
@@ -93,3 +160,6 @@ footer p{
     max-width: 500px;
     margin:auto;
 }
+
+*/
+
