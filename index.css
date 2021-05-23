@@ -43,7 +43,7 @@ main button{
     font-weight:600;
     transition :all ease-in-out 0.2s;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.4rem;
     margin:1rem 1rem 1rem 0rem;
 }
 
@@ -62,8 +62,6 @@ footer{
     bottom: 0;
     position: fixed;
     background-color: var(--color);
-    display: inline-block;
-    padding:1rem;
     width: 100%;
     text-align: center;
 
