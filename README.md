@@ -13,4 +13,4 @@ This translator translates from English to Minion's Language.
 1. User can provide the sentence in the input area.
 2. On click of translate button, user will get the translated text in output area.
 
-> ***Note :  ***  User can only translate max 5 times / hour .
+> *Note :*  User can only translate max 5 times / hour .
